@@ -14,6 +14,6 @@ end
 
 
 def move(board,index,value)
-  value = "X" || "O"
+  value = "X" 
   board[index] = value
 end
