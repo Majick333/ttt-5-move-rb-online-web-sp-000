@@ -7,3 +7,10 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+
+def input_to_index[display_board]
+  puts "Please make a move."
+  index = gets.chomp.to_i
+  adjusted_index = index - 1
+  new_index = array[adjusted_index]
+end
