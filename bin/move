@@ -19,4 +19,4 @@ input_to_index = board[input]
 
 move
 
-display_board
+display_board(board)
