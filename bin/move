@@ -13,6 +13,8 @@ board = [" ", " ", " ",
 
 puts "Where would you like to go?"
 
+display_board
+
 input = gets.strip
 
 input_to_index = board[]
